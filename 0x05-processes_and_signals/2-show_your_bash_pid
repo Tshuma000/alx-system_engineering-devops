@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# gets the PID of bash process
+# shellcheck disable=SC2009
+ps aux --forest | grep abash
